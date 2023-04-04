@@ -54,7 +54,7 @@ const ProfileCard = () => {
   return (
     <div className="card">
       <div className="profile">
-        <img src={user.image} width="100%" height="100%" />
+        <img src={user.image} width="100%" height="100%" alt="profile" />
       </div>
       <div
         className="content"
